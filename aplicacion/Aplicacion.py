@@ -89,17 +89,17 @@ def MenuPrincipal():
 	opcion = 0	
 
 	while opcion != 8:
-		print("\nBienvenido a la aplicacion de la ONG 'Nadie sin Comer' ")
-		print("-------------------------------------------------------")
-		print("Seleccione operacion a realizar: ")
-		print("1. Insertar nueva persona")
-		print("2. Eliminar datos de institucion")
-		print("3. Insertar datos de recogida")
-		print("4. Ver alimentos de recogida por fecha")
-		print("5. Actualizar cif de una institucion")
-		print("6. Eliminar alimentos caducados")
-		print("7. Obtener alimentos recogidos por un voluntario")
-		print("8. Salir")
+		print("\nBienvenido a la aplicacion de la ONG 'Nadie sin Comer' \n"
+		     "-------------------------------------------------------\n"
+		     "Seleccione operacion a realizar: \n"
+		     "1. Insertar nueva persona\n"
+		     "2. Eliminar datos de institucion\n"
+		     "3. Insertar datos de recogida\n"
+		     "4. Ver alimentos de recogida por fecha\n"
+		     "5. Actualizar cif de una institucion\n"
+		     "6. Eliminar alimentos caducados\n"
+		     "7. Obtener alimentos recogidos por un voluntario\n"
+		     "8. Salir")
 
 		opcion = int(input("Seleccione opcion: "))
 
